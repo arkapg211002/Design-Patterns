@@ -1,3 +1,19 @@
+/*
+ *  Builder Pattern
+ *  
+ *  Uses:
+ * 
+ *  Interface Item for creating food items
+ *  Interface Package for packing food item
+ *  Concrete Classes : Wrapper and Bottle implementing Package
+ *  Abstract Super Classes : Burger , Drink
+ *  Sub Classes : Veg Burger, Non Veg Burger, Cold Drink and Hot Drink
+ *  Represent a complex Object (combination of objects of food items) using Meal Class
+ *  Builder Class : MealBuilder to build complex Objects
+ *  Main Class : To create Builder to create complex objects
+ * 
+ */
+
 import java.util.*;
 import java.io.*;
 import java.lang.*;
